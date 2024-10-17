@@ -1,14 +1,14 @@
 <h1 align="center">
-  🌠 Optional, Either, Result in Typescript 🌠
+  🌠 Optional, Either and Result in Typescript 🌠
 </h1>
 
 <p align="center">
-  Implementation of useful data types in typescript that are present in other languages.
+  Implementation of useful data types in typescript that are available in other languages.
 </p>
 
 ## 💡 Current data types
 
-A complete suite of test covering the different methods is provided. Multiple operations are provided for each one of the data types. It is recommended to give an overview to the documentation of the implemented operations. Following a small description an example of usage of each one of the available types.
+A complete suite of test covering the different methods is provided. Multiple operations are attached for each one of the data types. It is recommended to give an overview to the documentation of the implemented operations. Following, a small description an example of usage of each one of the available types.
 
 ### **Optional:**
 

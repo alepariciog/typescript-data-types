@@ -1,0 +1,38 @@
+{
+	"name": "typescript-new-types",
+	"version": "1.0.0",
+	"description": "Add other language complex types to your typescript project",
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.12.0",
+		"@jest/globals": "^29.7.0",
+		"@types/eslint__js": "^8.42.3",
+		"@types/jest": "^29.5.13",
+		"eslint": "^9.12.0",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"typescript": "^5.6.3",
+		"typescript-eslint": "^8.8.1"
+	},
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "test",
+    "testRegex": ".*\\.test\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
